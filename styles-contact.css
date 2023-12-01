@@ -20,7 +20,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -59,20 +59,20 @@ html, body {
   height: 100%;
   width: 100%;
   padding: 0;
-  margin: 0;
+  margin: 0px;
   background-image: url("images/gritty.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center;
-	
+	  text-align: center;
 	
 }
 
 .center {
     width: 800px;
 	padding: 2%;
-    margin: 100px auto;
+    margin: 10px auto;
  	background: rgba(0, 0, 0, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 4px dashed white;
@@ -80,7 +80,7 @@ html, body {
 
    
 #logo {
-    margin-bottom: 16px;
+    margin: 30px;
 	border: 3px dashed rgb(255, 255, 255);
 	text-align: center;
 }
