@@ -78,6 +78,12 @@ html, body {
 	border: 4px dashed white;
 }
 
+ #triangle-topleft {
+      width: 0;
+      height: 0;
+      border-top: 100px solid red;
+      border-right: 100px solid transparent;
+    }
    
 #logo {
     margin: 30px;
